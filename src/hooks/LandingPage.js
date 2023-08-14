@@ -134,4 +134,108 @@ export default {
     },
   },
 };
-</>
+</script>
+<style>
+/* Header styles */
+.header {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+.logo {
+  max-width: 40px;
+  margin-right: 10px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.search input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Hero section styles */
+/* ... */
+
+/* Top products section styles */
+/* ... */
+
+/* Blog section styles */
+/* ... */
+
+/* Footer styles */
+.footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 40px 0;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-nav {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-nav a {
+  display: block;
+  margin-bottom: 10px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.subscribe-form,
+.contact-form {
+  flex: 1;
+  max-width: 300px;
+}
+
+.subscribe-form h4,
+.contact-form h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #cc5256;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #cc363a;
+}
+</style>
